@@ -20,6 +20,7 @@ public class AppServlet extends HttpServlet {
 		System.out.println("sa");
 		System.out.println("sasxzxzxz");
 		request.getRequestDispatcher("WEB-INF/views/NewFile.jsp").forward(request, response);
+		System.out.println("xxxxxxxxxxx");
 	}
 
 }
