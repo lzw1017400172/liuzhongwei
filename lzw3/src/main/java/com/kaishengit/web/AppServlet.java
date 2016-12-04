@@ -18,6 +18,7 @@ public class AppServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("sa");
+		System.out.println("sasxzxzxz");
 		request.getRequestDispatcher("WEB-INF/views/NewFile.jsp").forward(request, response);
 	}
 
